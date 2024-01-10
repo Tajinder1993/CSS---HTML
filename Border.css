@@ -1,0 +1,45 @@
+p{
+    padding: 8px;
+}
+
+.allsideborder{
+    border: solid;
+}
+
+.bottomborder{
+    border-bottom: solid red ;
+}
+
+.roundedborder{
+    border: solid gray;
+    border-radius: 8px;
+}
+
+.leftborderwithbackground{
+    border-left: solid 5px #0963F6;
+    background-color: skyblue;
+}
+
+.borderstyle1{
+    border-top: dotted;
+    border-left: dashed;
+    border-right: double;
+    border-bottom: groove;
+    /* border-style: dotted dashed double groove */
+}
+
+.borderwidth{
+    border: solid;
+    border-width: 2px 4px 6px 2px;
+    border-style: groove;
+    border-color: blue;
+}
+
+.bordercolors{
+    border: solid;
+    border-color: red pink blue green;
+}
+
+.shorthandborderproperty{
+    border: 5px dotted greenyellow;
+}
