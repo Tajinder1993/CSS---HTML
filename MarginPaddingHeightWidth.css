@@ -3,3 +3,22 @@
     padding: 20px;
     background-color: beige;
 }
+
+.automargin{
+    width: 300px;
+    margin: auto;
+    background-color: rgb(208, 228, 244);
+    border: solid 3px blue;
+}
+
+div{
+    margin: 100px;
+    background-color: beige;
+    border: 3px dotted skyblue;
+}
+
+
+p{
+    background-color: aquamarine;
+    margin: inherit;
+}
