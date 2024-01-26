@@ -22,3 +22,21 @@ p{
     background-color: aquamarine;
     margin: inherit;
 }
+
+.contentbox{
+    width: 300px;
+    box-sizing: content-box;
+    padding: 25px;
+}
+
+.borderbox{
+    width: 300px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.maxwidth{
+    max-width: 500px;
+    background-color: hotpink;
+    height: 300px;
+}
