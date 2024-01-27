@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+.Heading-Style{
+    color:blue;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.boxmodel{
+    width : 300px;
+    background-color: aquamarine;
+    color: black;
+    padding: 5px;
+    border: solid 5px red;
+    margin: auto;
+}
+
+.outlineborder{
+    outline: dotted 4px red;
+    border: solid 4px rgb(0, 179, 255);
+    margin: auto;
+    width: 500px;
+    height: 40px;
+    color: white;
+    outline-offset: 15px;
+}
+
+.text{
+    color: aliceblue;
+    background-color: rgb(81, 11, 81);
+    border: solid 3px white;
+}
+
+.textalignleft{
+    text-align: left;
+}
+
+.textalignright{
+    text-align: right;
+}
+
+.textaligncenter{
+    text-align: center;
+}
+
+.textalignjustify{
+    text-align: justify;
+}
+
+.alignlastline{
+    text-align-last: right;
+}
+
+.textdirectionrtl{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.verticalalign{
+    vertical-align:bottom;
+    height: 100px;
+    width: 400px;
+    margin: auto;
+}
