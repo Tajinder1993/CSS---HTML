@@ -1,0 +1,81 @@
+.centernowidth{
+    margin:auto;
+    color: rgb(31, 13, 122);
+    background-color: azure;
+    padding : 10px;
+}
+
+.centerwithwidth{
+    margin: auto;
+    color: rgb(31, 13, 122);
+    background-color: rgb(175, 219, 134);
+    width:50%;
+    padding: 10px;
+}
+
+/*image is an inline element. to make any image align center first thing to disply it as a block then set the margin of the image as auto */
+.imagecenter{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.positionright{
+    width: 50%;
+    background-color:burlywood;
+    color: blue;
+    /* position: absolute;
+    right: 15px; */
+    position: relative;
+    left: 50%;
+    padding: 20px;
+}
+
+.floatright{
+    float: right;
+    width: 40%;
+    background-color:burlywood;
+    color: blue;
+}
+
+.withoutclearfix{
+    width: 70%;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    margin: auto;
+}
+
+.width{
+    width: 40%;
+    float: right;
+}
+
+.withclearfix{
+    width: 70%;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear :both;
+    display: table;
+}
+
+.clearfloat{
+    clear: both;
+}
+
+.padding{
+    width: 70%;
+    padding: 20px 0px;
+    border: 3px solid greenyellow;  
+}
+
+.paddingtextalign{
+    width: 80%;
+    padding: 20px 0px;
+    border: 3px solid greenyellow; 
+    text-align: center;
+}
